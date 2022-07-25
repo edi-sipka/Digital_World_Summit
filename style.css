@@ -1,0 +1,138 @@
+/* Defaul typo and color
+Main color: #272A31;
+Color 2 : #EC5241;
+Color 3 : #D3D3D3;
+
+-- Font -
+Main font: Cocogoose;
+Font: Lato; */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+html {
+  font-size: 62.5%;
+}
+
+.main {
+  background-image: url('Images/background.jpg');
+  background-size: cover;
+}
+.padding {
+  padding-bottom: 3rem;
+}
+.enabled-menu {
+  width: 13%;
+  margin: 2rem;
+}
+.headings {
+  margin: 2rem;
+}
+.sub-text {
+  color: #ec5241;
+  font-size: 2.6rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+.main-text {
+  font-size: 4rem;
+  font-family: 'Lato', sans-serif;
+  color: #ec5241;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+.border-text {
+  margin: 2rem;
+  border: 2px solid rgb(255, 255, 255);
+}
+.border-paragraph {
+  line-height: 2.8rem;
+  font-size: 1.6rem;
+  padding: 1rem;
+  font-family: 'Lato', sans-serif;
+  background-color: #d3d3d3;
+  font-weight: 400;
+}
+.date {
+  margin: 2rem;
+}
+.date-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #2b2b2b;
+}
+.date-span {
+  font-size: 1.8rem;
+  margin-top: 2rem;
+}
+
+/* Main program section */
+.workshop {
+  background-color: #272a31;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+.h4-text {
+  font-size: 2.4rem;
+  color: #fff;
+  text-align: center;
+}
+.red-line {
+  background-color: #ec5241;
+  border: 1px solid #ec5241;
+  margin-top: 1rem;
+  width: 20%;
+}
+
+.program {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #fff;
+  background-color: #0a0e2b61;
+  margin-top: 1rem;
+  width: 80%;
+}
+.flex-program {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.program-img {
+  width: 20%;
+  margin-left: 1rem;
+}
+.program-text {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #ec5241;
+  text-align: center;
+  font-weight: 700;
+}
+.program-paragraph {
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  color: #fff;
+}
+.join {
+  background-color: #ec5241;
+  color: #fff;
+  width: 50%;
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  padding: 2rem;
+}

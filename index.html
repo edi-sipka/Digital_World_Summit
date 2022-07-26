@@ -9,7 +9,24 @@
   </head>
   <body>
     <section class="main padding">
-      <img src="Images/enabled.jpg" class="enabled-menu" alt="enable icon" />
+      <div class="mobile-menu">
+        <img
+          src="./Images/ClosingIcon.png"
+          alt="closing icon"
+          class="closing-icon"
+        />
+        <ul class="navigation">
+          <li class="menu"><a href="about.html" class="hover">About</a></li>
+          <li class="menu"><a href="#program" class="hover">Program</a></li>
+          <li class="menu"><a href="#join" class="hover">Join</a></li>
+          <li class="menu"><a href="#sponsor" class="hover">Sponsor</a></li>
+          <li class="menu"><a href="#news" class="hover">News</a></li>
+        </ul>
+      </div>
+      <div class="nav-left">
+        <img src="Images/enabled.jpg" class="enabled-menu" alt="enable icon" />
+      </div>
+
       <div class="headings">
         <p class="sub-text">"Hello! Digital World"</p>
         <h1 class="main-text">Digital World Global Summit 2022</h1>
@@ -28,7 +45,7 @@
         >
       </div>
     </section>
-    <section class="workshop">
+    <section class="workshop" id="program">
       <h4 class="h4-text">Main Program</h4>
       <hr class="red-line" />
       <div class="flex-program">
@@ -91,11 +108,11 @@
           </p>
         </div>
       </div>
-      <button class="join">Join Digital World Now</button>
+      <button class="join" id="join">Join Digital World Now</button>
     </section>
     <section class="speakers"></section>
 
-    <section class="partners-section">
+    <section class="partners-section" id="sponsor">
       <h4 class="partner-text">Partners</h4>
       <hr />
       <div class="flex-image">
@@ -114,7 +131,7 @@
         <img src="Images/logo5.png" alt="Airbnb logo" class="logo-partner" />
       </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="news">
       <div class="footer-section">
         <img
           src="Images/logo.jpg"

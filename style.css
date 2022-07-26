@@ -13,13 +13,19 @@ Font: Lato; */
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  width: 100vw;
 }
 body {
   font-family: 'Lato', sans-serif;
+  color: #272a31;
 }
 html {
   font-size: 62.5%;
+}
+hr {
+  background-color: #ec5241;
+  border: 1px solid #ec5241;
+  margin-top: 1rem;
+  width: 10%;
 }
 
 .main {
@@ -48,6 +54,7 @@ html {
   color: #ec5241;
   margin-top: 1rem;
   text-transform: uppercase;
+  font-weight: 900;
 }
 .border-text {
   margin: 2rem;
@@ -57,21 +64,21 @@ html {
   line-height: 2.8rem;
   font-size: 1.6rem;
   padding: 1rem;
-  font-family: 'Lato', sans-serif;
-  background-color: #d3d3d3;
-  font-weight: 400;
+  background-color: #ededed;
 }
 .date {
   margin: 2rem;
 }
 .date-heading {
-  font-size: 3rem;
+  font-size: 2.8rem;
   font-weight: 900;
-  color: #2b2b2b;
+  color: #272a31;
+  margin-bottom: 1rem;
 }
 .date-span {
-  font-size: 1.8rem;
-  margin-top: 2rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #8f8f8f;
 }
 
 /* Main program section */
@@ -85,7 +92,7 @@ html {
   padding-bottom: 2rem;
 }
 .h4-text {
-  font-size: 2.4rem;
+  font-size: 2.8rem;
   color: #fff;
   text-align: center;
 }
@@ -93,12 +100,12 @@ html {
   background-color: #ec5241;
   border: 1px solid #ec5241;
   margin-top: 1rem;
-  width: 20%;
+  width: 10%;
 }
 
 .program {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   border: 1px solid #fff;
   background-color: #0a0e2b61;
@@ -127,12 +134,164 @@ html {
   font-size: 1.2rem;
   line-height: 1.8rem;
   color: #fff;
+  width: 40%;
 }
 .join {
   background-color: #ec5241;
   color: #fff;
-  width: 50%;
   margin-top: 2rem;
   font-size: 1.6rem;
   padding: 2rem;
+  font-weight: 700;
+}
+
+/* Partner section */
+.partners-section {
+  background-color: rgb(91, 91, 91);
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
+}
+.partner-text {
+  font-size: 2.8rem;
+  color: #fff;
+  text-align: center;
+}
+.logo-partner {
+  width: 30%;
+  filter: grayscale(100%) brightness(10%) contrast(100%);
+  opacity: 0.3;
+}
+.logo-size {
+  width: 20%;
+  margin-left: 2rem;
+}
+.flex-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/* Footer */
+footer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 1rem;
+}
+.logo-digital {
+  width: 20%;
+  margin-left: 1rem;
+}
+.footer-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10rem;
+}
+.footer-span {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #8f8f8f;
+}
+
+/* ABOUT ME PAGE */
+.headings-about {
+  text-align: center;
+}
+.border-paragraph-about {
+  background-color: #fff;
+  text-align: center;
+}
+.contact-span {
+  color: #8f8f8f;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.contact-href {
+  color: #272a31;
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+/* Logo award section */
+.about-award {
+  margin: 3rem;
+}
+.award {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.certification {
+  text-align: center;
+  font-size: 2.4rem;
+}
+.logo-award {
+  margin-top: 2rem;
+  font-size: 1.8rem;
+  line-height: 1.8;
+  text-align: center;
+}
+.logo-img {
+  border: 1px solid #d3d3d3;
+  width: 40%;
+  margin-top: 2rem;
+}
+.black-line {
+  border: 1px solid #d3d3d3;
+  background-color: #d3d3d3;
+  width: 100%;
+}
+/* Past events */
+.events {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.carousel {
+  margin: 2rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(248, 65, 65);
+  width: 80%;
+}
+.card {
+  width: 100%;
+  opacity: 0.5;
+}
+.year {
+  font-size: 2.4rem;
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  font-size: 3.2rem;
+  color: #fff;
+  font-weight: 900;
+}
+.text-event {
+  font-size: 2.4rem;
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  font-size: 3.2rem;
+  color: #fff;
+  font-weight: 900;
 }

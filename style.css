@@ -28,12 +28,15 @@ hr {
   width: 10%;
 }
 /* Main section */
+.desktop-menu {
+  display: none;
+}
 .main {
   background-image: url('Images/background.jpg');
   background-size: cover;
 }
 .padding {
-  padding-bottom: 3rem;
+  padding-bottom: 7rem;
 }
 .enabled-menu {
   width: 13%;
@@ -49,7 +52,7 @@ hr {
   font-weight: 500;
 }
 .main-text {
-  font-size: 4rem;
+  font-size: 5rem;
   font-family: 'Lato', sans-serif;
   color: #ec5241;
   margin-top: 1rem;
@@ -133,6 +136,14 @@ hr {
 .mobile-menu.visible {
   display: block;
 }
+.mobile-logo {
+  width: 60%;
+}
+.logo-imgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Main program section */
 .workshop {
@@ -142,7 +153,7 @@ hr {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding-bottom: 2rem;
+  padding-bottom: 8rem;
 }
 .h4-text {
   font-size: 2.8rem;
@@ -192,7 +203,7 @@ hr {
 .join {
   background-color: #ec5241;
   color: #fff;
-  margin-top: 2rem;
+  margin-top: 3rem;
   font-size: 1.6rem;
   padding: 2rem;
   font-weight: 700;
@@ -236,7 +247,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: row;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 .logo-digital {
   width: 20%;
@@ -347,4 +358,111 @@ footer {
   font-size: 3.2rem;
   color: #fff;
   font-weight: 900;
+}
+
+@media (min-width: 748px) {
+  .pre-header {
+    background-color: #272a31;
+    padding: 1rem;
+  }
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr;
+    place-content: center;
+    place-items: center;
+    gap: 2rem;
+  }
+  .enabled-menu {
+    display: none;
+  }
+  .desktop-menu {
+    background-color: #ffffff;
+  }
+  .header-logo {
+    width: 30%;
+    cursor: pointer;
+  }
+  .hover {
+    color: #272a31;
+  }
+  .uo-list-header {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.6rem;
+  }
+
+  .button-nav {
+    border: 2px solid #ec5241;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-right: 4rem;
+    padding: 1rem;
+    cursor: pointer;
+  }
+
+  .pre-header-flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+  }
+  .icon {
+    font-size: 2.5rem;
+    color: #ffffff;
+  }
+  .tabs {
+    color: #fff;
+  }
+  .headings {
+    padding: 2rem;
+    margin-left: 6rem;
+    width: 60%;
+  }
+  .border-text {
+    width: 50%;
+    margin-left: 7rem;
+  }
+  .date-heading {
+    margin-left: 5rem;
+  }
+  .date-span {
+    margin-left: 5rem;
+  }
+  .program {
+    display: grid;
+    grid-gap: 10px;
+  }
+  .program-paragraph {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+  }
+  .flex-program {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    gap: 2rem;
+  }
+  .join {
+    display: none;
+  }
+  .join-now {
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .flex-image {
+    margin-top: 0.5rem;
+  }
+  .logo-partner {
+    width: 10%;
+    gap: 2rem;
+  }
+  .logo-digital {
+    width: 10%;
+  }
 }

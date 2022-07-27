@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link href="http://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+
     <title>About me</title>
   </head>
   <body>
@@ -27,11 +29,35 @@
       <div class="nav-left">
       <img src="Images/enabled.jpg" class="enabled-menu" alt="enable icon" />
       </div>
-      <div class="headings headings-about">
+      <header class="desktop-menu">
+        <div class="pre-header">
+          <div class="pre-header-flex">
+            <ion-icon name="logo-facebook" class="icon"></ion-icon>
+            <ion-icon name="logo-twitter" class="icon"></ion-icon>
+            <span class="tabs">English</span>
+            <span class="tabs">Language</span>
+            <span class="tabs">Logout</span>
+          </div>
+        </div>
+        <div class="header">
+          <a href="index.html" class="logo-imgs"
+            ><img src="Images/logo-size.png" class="header-logo" />
+          <ul class="uo-list-header"></a>
+          <ul class="uo-list-header">
+            <li class="menu"><a href="about.html" class="hover">About</a></li>
+            <li class="menu"><a href="#program" class="hover">Program</a></li>
+            <li class="menu"><a href="#join" class="hover">Join</a></li>
+            <li class="menu"><a href="#sponsor" class="hover">Sponsor</a></li>
+            <li class="menu"><a href="#news" class="hover">News</a></li>
+          </ul>
+          <a class="button-nav">Digital Summit</a>
+        </div>
+      </header>
+      <div class="headings-about">
         <p class="sub-text">"Hello! Digital World"</p>
         <h1 class="main-text">Digital World Global Summit 2022</h1>
       </div>
-      <div class="border-text">
+      <div class="border-text border-text-about">
         <p class="border-paragraph border-paragraph-about">
           The Digital Summit brings together national and departmental digital
           chiefs from across the globe for open, informal discussion of the
@@ -93,7 +119,7 @@
             alt="Naver logo"
             class="logo-partner logo-size"
           />
-          <img src="Images/logo4.png" alt="Daumkakao logo" class="logo-partner" />
+          <img src="Images/logo4.png" alt="Daumkakao logo" class="logo-partner logo-size" />
           <img src="Images/logo5.png" alt="Airbnb logo" class="logo-partner" />
         </div>
       </section>
@@ -111,6 +137,13 @@
         </div>
       </footer>
       <script src="./closing-menu.js"></script>
-        
+      <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>

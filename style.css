@@ -268,6 +268,8 @@ footer {
 /* ABOUT ME PAGE */
 .headings-about {
   text-align: center;
+  padding: 2rem;
+  margin-left: 6rem;
 }
 .border-paragraph-about {
   background-color: #fff;
@@ -360,7 +362,10 @@ footer {
   font-weight: 900;
 }
 
-@media (min-width: 748px) {
+@media (min-width: 768px) {
+  .desktop-menu {
+    display: block;
+  }
   .pre-header {
     background-color: #272a31;
     padding: 1rem;
@@ -464,5 +469,26 @@ footer {
   }
   .logo-digital {
     width: 10%;
+  }
+  .border-text-about {
+    width: 80%;
+    margin-left: 15rem;
+  }
+  .logo-award {
+    width: 50%;
+  }
+  .logo-img {
+    width: 20%;
+  }
+  .events {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    margin-bottom: 4rem;
+  }
+  .carousel {
+    width: 20%;
   }
 }

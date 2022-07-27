@@ -25,7 +25,7 @@ hr {
   background-color: #ec5241;
   border: 1px solid #ec5241;
   margin-top: 1rem;
-  width: 10%;
+  width: 5%;
 }
 /* Main section */
 .desktop-menu {
@@ -156,7 +156,7 @@ hr {
   padding-bottom: 8rem;
 }
 .h4-text {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   color: #fff;
   text-align: center;
 }
@@ -164,7 +164,7 @@ hr {
   background-color: #ec5241;
   border: 1px solid #ec5241;
   margin-top: 1rem;
-  width: 10%;
+  width: 5%;
 }
 
 .program {
@@ -172,7 +172,7 @@ hr {
   justify-content: space-between;
   align-items: center;
   border: 1px solid #fff;
-  background-color: #0a0e2b61;
+  background-color: #7a7d9161;
   margin-top: 1rem;
   width: 80%;
 }
@@ -218,7 +218,7 @@ hr {
   padding-bottom: 2rem;
 }
 .featured-speakers {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   color: #272a31;
   text-align: center;
 }
@@ -273,12 +273,12 @@ hr {
   padding-bottom: 2rem;
 }
 .partner-text {
-  font-size: 2.8rem;
+  font-size: 2.4rem;
   color: #fff;
   text-align: center;
 }
 .logo-partner {
-  width: 30%;
+  width: 40%;
   filter: grayscale(100%) brightness(10%) contrast(100%);
   opacity: 0.3;
 }
@@ -303,7 +303,7 @@ footer {
   margin-bottom: 2rem;
 }
 .logo-digital {
-  width: 20%;
+  width: 30%;
   margin-left: 1rem;
 }
 .footer-section {
@@ -322,7 +322,6 @@ footer {
 .headings-about {
   text-align: center;
   padding: 2rem;
-  margin-left: 6rem;
 }
 .border-paragraph-about {
   background-color: #fff;
@@ -443,6 +442,9 @@ footer {
   .hover {
     color: #272a31;
   }
+  .headings-about {
+    margin-left: 6rem;
+  }
   .uo-list-header {
     list-style: none;
     display: flex;
@@ -490,8 +492,11 @@ footer {
     margin-left: 5rem;
   }
   .program {
-    display: grid;
+    display: flex;
     grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   .program-paragraph {
     width: 100%;
@@ -509,19 +514,41 @@ footer {
   }
   .join-now {
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.6rem;
     cursor: pointer;
     text-decoration: underline;
   }
   .flex-image {
     margin-top: 0.5rem;
   }
+  .presenters {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: 40% 40%;
+  }
+  .bg-chess {
+    width: 5%;
+  }
+  .featured-speakers {
+    margin-top: -5rem;
+    width: 80vw;
+  }
+  .sizing {
+    margin-left: -3rem;
+  }
+  .red-line-size {
+    background-color: #ec5241;
+    border: 1.5px solid #ec5241;
+    width: 13%;
+    margin-left: -3rem;
+  }
+
   .logo-partner {
     width: 10%;
     gap: 2rem;
   }
   .logo-digital {
-    width: 10%;
+    width: 15%;
   }
   .border-text-about {
     width: 80%;

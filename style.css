@@ -14,43 +14,53 @@ Font: Lato; */
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: 'Lato', sans-serif;
   color: #272a31;
 }
+
 html {
   font-size: 62.5%;
 }
+
 hr {
   background-color: #ec5241;
   border: 1px solid #ec5241;
   margin-top: 1rem;
   width: 5%;
 }
+
 /* Main section */
 .desktop-menu {
   display: none;
 }
+
 .main {
   background-image: url('Images/background.jpg');
   background-size: cover;
 }
+
 .padding {
   padding-bottom: 7rem;
 }
+
 .enabled-menu {
   width: 13%;
   margin: 2rem;
 }
+
 .headings {
   margin: 2rem;
 }
+
 .sub-text {
   color: #ec5241;
   font-size: 2.6rem;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
 }
+
 .main-text {
   font-size: 5rem;
   font-family: 'Lato', sans-serif;
@@ -59,31 +69,37 @@ hr {
   text-transform: uppercase;
   font-weight: 900;
 }
+
 .border-text {
   margin: 2rem;
   border: 2px solid rgb(255, 255, 255);
 }
+
 .border-paragraph {
   line-height: 2.8rem;
   font-size: 1.6rem;
   padding: 1rem;
   background-color: #ededed;
 }
+
 .date {
   margin: 2rem;
 }
+
 .date-heading {
   font-size: 2.8rem;
   font-weight: 900;
   color: #272a31;
   margin-bottom: 1rem;
 }
+
 .date-span {
   font-size: 1.6rem;
   font-weight: 700;
   color: #8f8f8f;
 }
-/* Closing mobile-menu*/
+
+/* Closing mobile-menu */
 .mobile-menu {
   position: absolute;
   background: #ec524179;
@@ -110,6 +126,7 @@ hr {
     transform: rotateX(0deg);
   }
 }
+
 .closing-icon {
   position: absolute;
   width: 2.5rem;
@@ -117,6 +134,7 @@ hr {
   top: 1rem;
   right: 1.6rem;
 }
+
 .navigation {
   display: flex;
   justify-content: center;
@@ -129,16 +147,20 @@ hr {
   color: #fff;
   font-weight: 700;
 }
+
 .hover {
   color: #fff;
   text-decoration: none;
 }
+
 .mobile-menu.visible {
   display: block;
 }
+
 .mobile-logo {
   width: 60%;
 }
+
 .logo-imgs {
   display: flex;
   justify-content: center;
@@ -155,11 +177,13 @@ hr {
   flex-direction: column;
   padding-bottom: 8rem;
 }
+
 .h4-text {
   font-size: 2.4rem;
   color: #fff;
   text-align: center;
 }
+
 .red-line {
   background-color: #ec5241;
   border: 1px solid #ec5241;
@@ -176,6 +200,7 @@ hr {
   margin-top: 1rem;
   width: 80%;
 }
+
 .flex-program {
   display: flex;
   flex-direction: column;
@@ -183,23 +208,26 @@ hr {
   align-items: center;
   margin-top: 2rem;
 }
+
 .program-img {
   width: 20%;
   margin-left: 1rem;
 }
+
 .program-text {
-  text-align: center;
   font-size: 1.6rem;
   color: #ec5241;
   text-align: center;
   font-weight: 700;
 }
+
 .program-paragraph {
   font-size: 1.2rem;
   line-height: 1.8rem;
   color: #fff;
   width: 40%;
 }
+
 .join {
   background-color: #ec5241;
   color: #fff;
@@ -208,6 +236,7 @@ hr {
   padding: 2rem;
   font-weight: 700;
 }
+
 /* Speakers section */
 
 .speakers {
@@ -217,11 +246,13 @@ hr {
   gap: 1rem;
   padding-bottom: 2rem;
 }
+
 .featured-speakers {
   font-size: 2.4rem;
   color: #272a31;
   text-align: center;
 }
+
 .bg-chess {
   width: 15%;
   position: absolute;
@@ -229,6 +260,7 @@ hr {
   margin-top: -1rem;
   margin-left: 0.5rem;
 }
+
 .presenters {
   margin-top: 3rem;
   display: flex;
@@ -236,32 +268,39 @@ hr {
   align-items: center;
   justify-content: center;
 }
+
 .speakers-img {
   z-index: 2;
   position: relative;
   margin-left: 1.5rem;
 }
+
 .speakers-text {
   font-size: 1.8rem;
 }
+
 .speaker-name {
   font-size: 1.8rem;
 }
+
 .speaker-title {
   color: #ec5241;
   font-size: 1.4rem;
 }
+
 .speaker-description {
   font-size: 1.4rem;
   width: 90%;
   margin-top: 1rem;
 }
+
 .hr {
   background-color: #d3d3d3;
   border: 1px solid #d3d3d3;
   width: 10%;
   margin-top: 0.5rem;
 }
+
 /* Partner section */
 .partners-section {
   background-color: rgb(91, 91, 91);
@@ -272,20 +311,24 @@ hr {
   flex-direction: column;
   padding-bottom: 2rem;
 }
+
 .partner-text {
   font-size: 2.4rem;
   color: #fff;
   text-align: center;
 }
+
 .logo-partner {
   width: 40%;
   filter: grayscale(100%) brightness(10%) contrast(100%);
   opacity: 0.3;
 }
+
 .logo-size {
   width: 20%;
   margin-left: 2rem;
 }
+
 .flex-image {
   display: flex;
   flex-wrap: wrap;
@@ -302,16 +345,19 @@ footer {
   flex-direction: row;
   margin-bottom: 2rem;
 }
+
 .logo-digital {
   width: 30%;
   margin-left: 1rem;
 }
+
 .footer-section {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10rem;
 }
+
 .footer-span {
   font-size: 1.4rem;
   font-weight: 700;
@@ -323,10 +369,12 @@ footer {
   text-align: center;
   padding: 2rem;
 }
+
 .border-paragraph-about {
   background-color: #fff;
   text-align: center;
 }
+
 .contact-span {
   color: #8f8f8f;
   font-size: 1.4rem;
@@ -335,6 +383,7 @@ footer {
   justify-content: center;
   text-align: center;
 }
+
 .contact-href {
   color: #272a31;
   font-size: 1.4rem;
@@ -344,36 +393,43 @@ footer {
   text-align: center;
   margin-top: 1rem;
 }
+
 /* Logo award section */
 .about-award {
   margin: 3rem;
 }
+
 .award {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
+
 .certification {
   text-align: center;
   font-size: 2.4rem;
 }
+
 .logo-award {
   margin-top: 2rem;
   font-size: 1.8rem;
   line-height: 1.8;
   text-align: center;
 }
+
 .logo-img {
   border: 1px solid #d3d3d3;
   width: 40%;
   margin-top: 2rem;
 }
+
 .black-line {
   border: 1px solid #d3d3d3;
   background-color: #d3d3d3;
   width: 100%;
 }
+
 /* Past events */
 .events {
   display: flex;
@@ -382,6 +438,7 @@ footer {
   flex-direction: column;
   position: relative;
 }
+
 .carousel {
   margin: 2rem;
   position: relative;
@@ -391,12 +448,13 @@ footer {
   background: rgb(248, 65, 65);
   width: 80%;
 }
+
 .card {
   width: 100%;
   opacity: 0.5;
 }
+
 .year {
-  font-size: 2.4rem;
   margin: 0;
   position: absolute;
   top: 40%;
@@ -404,8 +462,8 @@ footer {
   color: #fff;
   font-weight: 900;
 }
+
 .text-event {
-  font-size: 2.4rem;
   margin: 0;
   position: absolute;
   top: 55%;
@@ -417,11 +475,14 @@ footer {
 @media (min-width: 768px) {
   .desktop-menu {
     display: block;
+    background-color: #fff;
   }
+
   .pre-header {
     background-color: #272a31;
     padding: 1rem;
   }
+
   .header {
     display: grid;
     grid-template-columns: 1fr 5fr 1fr;
@@ -429,22 +490,24 @@ footer {
     place-items: center;
     gap: 2rem;
   }
+
   .enabled-menu {
     display: none;
   }
-  .desktop-menu {
-    background-color: #ffffff;
-  }
+
   .header-logo {
     width: 30%;
     cursor: pointer;
   }
+
   .hover {
     color: #272a31;
   }
+
   .headings-about {
     margin-left: 6rem;
   }
+
   .uo-list-header {
     list-style: none;
     display: flex;
@@ -469,28 +532,35 @@ footer {
     align-items: center;
     gap: 2rem;
   }
+
   .icon {
     font-size: 2.5rem;
-    color: #ffffff;
+    color: #fff;
   }
+
   .tabs {
     color: #fff;
   }
+
   .headings {
     padding: 2rem;
     margin-left: 6rem;
     width: 60%;
   }
+
   .border-text {
     width: 50%;
     margin-left: 7rem;
   }
+
   .date-heading {
     margin-left: 5rem;
   }
+
   .date-span {
     margin-left: 5rem;
   }
+
   .program {
     display: flex;
     grid-gap: 10px;
@@ -498,44 +568,54 @@ footer {
     align-items: center;
     flex-direction: column;
   }
+
   .program-paragraph {
     width: 100%;
     text-align: center;
     padding: 1rem;
   }
+
   .flex-program {
     display: flex;
     flex-direction: row;
     padding: 3rem;
     gap: 2rem;
   }
+
   .join {
     display: none;
   }
+
   .join-now {
     color: #fff;
     font-size: 1.6rem;
     cursor: pointer;
     text-decoration: underline;
   }
+
   .flex-image {
     margin-top: 0.5rem;
   }
+
   .presenters {
     margin-top: 4rem;
     display: grid;
     grid-template-columns: 40% 40%;
   }
+
   .bg-chess {
     width: 5%;
   }
+
   .featured-speakers {
     margin-top: -5rem;
     width: 80vw;
   }
+
   .sizing {
     margin-left: -3rem;
   }
+
   .red-line-size {
     background-color: #ec5241;
     border: 1.5px solid #ec5241;
@@ -547,19 +627,24 @@ footer {
     width: 10%;
     gap: 2rem;
   }
+
   .logo-digital {
     width: 15%;
   }
+
   .border-text-about {
     width: 80%;
     margin-left: 15rem;
   }
+
   .logo-award {
     width: 50%;
   }
+
   .logo-img {
     width: 20%;
   }
+
   .events {
     display: flex;
     justify-content: center;
@@ -568,6 +653,7 @@ footer {
     position: relative;
     margin-bottom: 4rem;
   }
+
   .carousel {
     width: 20%;
   }

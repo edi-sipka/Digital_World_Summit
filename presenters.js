@@ -51,7 +51,7 @@ presenters.forEach((element) => {
 
   presenter.innerHTML = ` 
 <div class="speaker">
-<img src="images/chess-bg.png" class="bg-chess" alt="chess" />
+<img src="./Images/chess-bg.png" class="bg-chess" alt="chess" />
 <img src=${element.img} class="speakers-img" alt="speaker image">
 </div>
 <div>

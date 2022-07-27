@@ -8,7 +8,7 @@ This is a website about Digital World Summit 2022. Digital Summit is a leading n
 
 ## Built With
 
-- html/css/js.
+- HTML/CSS/JAVASCRIPT.
 - following linters standards.
 - following github flows standards.
 
@@ -25,7 +25,7 @@ follow>>>>>>>>>
 
 to use the project please follow :
 
-> Open GitHub and go to my GitHub repository name: Capstone-Project-I .to clone.
+> Open GitHub and go to my GitHub repository name: Digital_World_Summit .to clone.
 > Click “Code” and copy the given URL.
 > click code and copy the URL.
 
@@ -41,15 +41,23 @@ $ git clone {repository URL}
 
 ### Usage
 
+> open your directory Digital_World_Summit
+> to run the file :
+> \_use vs-code or any IDE to view line code .
+
+\_use you preferd browser to run the file .html to get project website.
+
 ### LIVE DEMO
+
+CHECK THIS LINK [portfolio-website](https://edi-sipka.github.io/Digital_World_Summit/)
 
 ## Authors
 
 👤 **Edi Sipka**
 
-- GitHub:
-- Twitter:
-- LinkedIn:
+- GitHub: [@Edi-Sipka](https://github.com/edi-sipka)
+- Twitter: [@sipka_edii](https://twitter.com/sipka_edii)
+- LinkedIn: [Edi Sipka](https://www.linkedin.com/in/edi-%C5%A1ipka-5b681b202/)
 
 ## 🤝 credit
 

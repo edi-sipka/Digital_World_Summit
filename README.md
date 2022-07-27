@@ -49,7 +49,7 @@ $ git clone {repository URL}
 
 ### LIVE DEMO
 
-CHECK THIS LINK [portfolio-website](https://edi-sipka.github.io/Digital_World_Summit/)
+CHECK THIS LINK [Digital World Summit](https://edi-sipka.github.io/Digital_World_Summit/)
 
 ## Authors
 

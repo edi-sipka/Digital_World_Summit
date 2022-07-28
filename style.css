@@ -152,6 +152,9 @@ hr {
   color: #fff;
   text-decoration: none;
 }
+.hover:hover {
+  color: #ec5241;
+}
 
 .mobile-menu.visible {
   display: block;

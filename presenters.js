@@ -43,12 +43,14 @@ const presenters = [
   },
 ];
 
+// Made a new div and append it to section
 presenters.forEach((element) => {
   const presentering = document.querySelector('.presenters');
   const presenter = document.createElement('div');
   presentering.appendChild(presenter);
   presenter.classList.add('speakers');
 
+  // Made inner html of div
   presenter.innerHTML = ` 
 <div class="speaker">
 <img src="./Images/chess-bg.png" class="bg-chess" alt="chess" />
